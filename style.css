@@ -170,6 +170,11 @@ button{
   align-items: center;
   gap: 20px;
 }
+.modal button{
+    border-color: #e5e7eb;
+    border: solid;
+    border-radius: 7px;
+}
 .modal_left{
     display: flex;
     flex-direction: column;
@@ -180,6 +185,7 @@ button{
     flex-shrink: 0;
     font-weight: 700;
     font-size: 20px;
+    padding-bottom: 8px;
 }
 .modal_info{
     display: flex;
@@ -187,4 +193,13 @@ button{
     justify-content: space-between;
     margin-bottom: 8px;
     font-size: 15px;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    padding: 50px 0;
 }
